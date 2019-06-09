@@ -14,6 +14,8 @@ module.exports = {
     author: siteConfig.author
   },
   plugins: [
+    `gatsby-transformer-sharp`, 
+    `gatsby-plugin-sharp`,
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -100,7 +102,15 @@ module.exports = {
           },
           {
             resolve: 'gatsby-remark-images',
-            options: { maxWidth: 960 }
+            options: {
+              maxWidth: 960,
+              tracedSVG: {
+                color: `lightgray`,
+                optTolerance: 0.4,
+                turdSize: 100,
+                turnPolicy: TURNPOLICY_MAJORITY,
+              }
+            }
           },
           {
             resolve: 'gatsby-remark-responsive-iframe',
