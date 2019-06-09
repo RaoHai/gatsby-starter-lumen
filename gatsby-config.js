@@ -106,7 +106,7 @@ module.exports = {
                 color: `lightgray`,
                 optTolerance: 0.4,
                 turdSize: 100,
-                turnPolicy: TURNPOLICY_MAJORITY,
+                turnPolicy: 'TURNPOLICY_MAJORITY',
               }
             }
           },
