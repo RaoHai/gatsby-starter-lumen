@@ -14,8 +14,6 @@ module.exports = {
     author: siteConfig.author
   },
   plugins: [
-    `gatsby-transformer-sharp`, 
-    `gatsby-plugin-sharp`,
     {
       resolve: 'gatsby-source-filesystem',
       options: {
