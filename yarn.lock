@@ -5821,6 +5821,7 @@ gatsby-remark-copy-linked-files@^2.0.13:
 gatsby-remark-images@^3.0.14:
   version "3.0.14"
   resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-3.0.14.tgz#b42a258bf55d70ace8f425a51cef9ad38103ac98"
+  integrity sha512-q4pMroxcRouu+qkuyfKi0SY3I/nnLJB1dZKwrsDWOlXEsNfCiS2Kyxf/RZSitVus4f+rBgVRL4t0xPD0S8275w==
   dependencies:
     "@babel/runtime" "^7.0.0"
     cheerio "^1.0.0-rc.2"
@@ -11325,6 +11326,22 @@ randomfill@^1.0.3:
 range-parser@^1.0.3, range-parser@~1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/range-parser/-/range-parser-1.2.0.tgz#f49be6b487894ddc40dcc94a322f611092e00d5e"
+
+raohai-gatsby-remark-images@^3.0.15:
+  version "3.0.15"
+  resolved "https://registry.yarnpkg.com/raohai-gatsby-remark-images/-/raohai-gatsby-remark-images-3.0.15.tgz#6058fc14e41613f9003b4e6d60cfe3a4fd412c62"
+  integrity sha512-9N7dvppMZW8EFPwXgwN5+Dc8xFH/RS1MSXm3RXfhXAa3x80qHYeipkGKVsdfUwknSMuiCsImOnwECP2ob/WSXw==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    cheerio "^1.0.0-rc.2"
+    is-relative-url "^2.0.0"
+    lodash "^4.17.10"
+    mdast-util-definitions "^1.2.0"
+    potrace "^2.1.1"
+    query-string "^6.1.0"
+    slash "^1.0.0"
+    unist-util-select "^1.5.0"
+    unist-util-visit-parents "^2.0.1"
 
 raw-body@2.3.3:
   version "2.3.3"

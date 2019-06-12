@@ -99,8 +99,9 @@ module.exports = {
             }
           },
           {
-            resolve: 'gatsby-remark-images',
+            resolve: 'raohai-gatsby-remark-images',
             options: {
+              assetsPath: `${__dirname}/static`,
               maxWidth: 960,
               tracedSVG: {
                 color: `lightgray`,
